@@ -1,10 +1,10 @@
 import React from "react";
-import PostDefinitions from "./PostDefinitions";
+import PostQuotes from "./PostQuotes";
 
 const App = () => {
   return (
     <div className="ui container">
-      <PostDefinitions />
+      <PostQuotes />
     </div>
   );
 };
