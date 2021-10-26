@@ -3,7 +3,7 @@ import axios from "axios";
 export const quoteAPI = axios.create({
   baseURL: "https://dummyapi.io/data/v1/",
   headers: {
-    "app-id": "6177a02a40b9badb1f68ef1a",
+    "app-id": process.env.REACT_APP_KEY,
   },
   // headers: {
   //   "x-rapidapi-host": "quotes15.p.rapidapi.com",
